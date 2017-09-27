@@ -2,5 +2,7 @@
 # Cookbook Name:: dynatrace
 # Attributes:: default
 #
-# The Dynatrace download_link.
-default['download_link'] = 'https://{tenant_id}.live.dynatrace.com/installer/oneagent/unix/latest/{token_id}'
+# The Dynatrace download_link. 
+# Customer has to replace {ONEAGENT_INSTALLER_SCRIPT_URL} parameter by real URL.
+#
+default['download_link'] = '{ONEAGENT_INSTALLER_SCRIPT_URL}'
